@@ -17,8 +17,7 @@ function App() {
   return (
     <div className="min-h-screen bg-[#0b1220] text-gray-200">
       
-      {/* Header */}
-      <header className="sticky top-0 z-20 backdrop-blur bg-gradient-to-b from-[#0b1220]/80 to-[#0b1220]/30 border-b border-white/5">
+       <header className="sticky top-0 z-20 backdrop-blur bg-gradient-to-b from-[#0b1220]/80 to-[#0b1220]/30 border-b border-white/5">
         <div className="max-w-6xl mx-auto px-5 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2 font-bold text-lg">
             <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-sky-500 to-cyan-400 shadow-lg"></div>
@@ -76,8 +75,7 @@ function App() {
         </div>
       </header>
 
-      {/* Hero */}
- 
+  
       <section id="overview" className="py-12  scroll-mt-20">
         <div className="max-w-6xl mx-auto  grid md:grid-cols-2 items-center">
           <div>
@@ -117,8 +115,7 @@ function App() {
   </button>
 </div>
 
-            {/* Pills */}
-            <div className="flex gap-3 mt-6 flex-wrap">
+             <div className="flex gap-3 mt-6 flex-wrap">
               <span className="text-xs px-3 py-1 border border-gray-700 rounded-full">
                 Clinical exposure
               </span>
@@ -138,8 +135,7 @@ flex items-center justify-center text-gray-500 mx-auto">
         </div>
       </section>
 
-      {/* Why Choose */}
-      <section className="py-12  scroll-mt-20">
+       <section className="py-12  scroll-mt-20">
         <div className="max-w-6xl mx-auto px-5">
           <h2 className="text-[clamp(24px,4vw,36px)] mb-2 font-bold">Why choose our MBBS</h2>
           <p className="text-gray-400 mb-6">
@@ -173,8 +169,7 @@ flex items-center justify-center text-gray-500 mx-auto">
         </div>
       </section>
 
-      {/* Curriculum */}
-      <section id="curriculum" className="py-12 bg-gradient-to-b from-transparent to-slate-900/30  scroll-mt-20">
+       <section id="curriculum" className="py-12 bg-gradient-to-b from-transparent to-slate-900/30  scroll-mt-20">
         <div className="max-w-6xl mx-auto px-5">
           <h2 className="text-3xl font-bold mb-6">Curriculum structure</h2>
           <p className="text-gray-400 mb-6">
@@ -183,10 +178,8 @@ flex items-center justify-center text-gray-500 mx-auto">
 
           <div className="bg-slate-900/80 border border-gray-800 p-6 md:p-8 rounded-2xl grid grid-cols-1 md:grid-cols-2 gap-8">
   
-  {/* Left Column */}
-  <div className="space-y-6">
-    {/* Phase I */}
-    <div>
+   <div className="space-y-6">
+     <div>
       <h3 className="font-semibold text-lg mb-2">
         Phase I — Pre-clinical (Year 1)
       </h3>
@@ -197,8 +190,7 @@ flex items-center justify-center text-gray-500 mx-auto">
       </ul>
     </div>
 
-    {/* Phase II */}
-    <div>
+     <div>
       <h3 className="font-semibold text-lg mb-2">
         Phase II — Para-clinical (Years 2–3)
       </h3>
@@ -210,8 +202,7 @@ flex items-center justify-center text-gray-500 mx-auto">
     </div>
   </div>
 
-  {/* Right Column */}
-  <div className="flex flex-col justify-between">
+   <div className="flex flex-col justify-between">
     <div>
       <h3 className="font-semibold text-lg mb-2">
         Phase III — Clinical (Years 4–5)
@@ -234,8 +225,7 @@ flex items-center justify-center text-gray-500 mx-auto">
         </div>
       </section>
 
-      {/* Admissions */}
-      <section id="admissions" className="py-12  scroll-mt-20">
+       <section id="admissions" className="py-12  scroll-mt-20">
         <div className="max-w-6xl mx-auto px-5">
           <h2 className="text-3xl font-bold mb-6">Admissions & eligibility</h2>
            <p className="text-gray-400 mb-6">
@@ -272,8 +262,7 @@ flex items-center justify-center text-gray-500 mx-auto">
         </div>
       </section>
 
-      {/* Fees */}
-      <section id="fees" className="py-12  scroll-mt-20">
+       <section id="fees" className="py-12  scroll-mt-20">
         <div className="max-w-6xl mx-auto px-5">
           <h2 className="text-3xl font-bold mb-6">Fees & financial Aid</h2>
           <p className="text-gray-400 mb-6">
@@ -317,8 +306,7 @@ flex items-center justify-center text-gray-500 mx-auto">
         </div>
       </section>
 
-      {/* Student Voices */}
-      <section  className="py-12  scroll-mt-20">
+       <section  className="py-12  scroll-mt-20">
         <div className="max-w-6xl mx-auto px-5">
           <h2 className="text-3xl font-bold mb-6">Student voices</h2>
          <div className="grid md:grid-cols-3 gap-6 justify-items-center">
@@ -355,8 +343,7 @@ flex items-center justify-center text-gray-500 mx-auto">
         </div>
       </section>
 
-      {/* FAQ */}
-      <section id="faq" className="py-12  scroll-mt-20">
+       <section id="faq" className="py-12  scroll-mt-20">
         <div className="max-w-4xl mx-auto px-5">
           <h2 className="text-3xl font-bold mb-6">FAQ</h2>
 
@@ -380,8 +367,7 @@ flex items-center justify-center text-gray-500 mx-auto">
         </div>
       </section>
 
-      {/* Contact */}
-      <section id="contact" className="py-12  scroll-mt-20">
+       <section id="contact" className="py-12  scroll-mt-20">
         <div className="max-w-4xl mx-auto px-5">
           <h2 className="text-3xl font-bold mb-6">Contact admissions</h2>
           <p className="text-gray-400 mb-6">
@@ -426,8 +412,7 @@ flex items-center justify-center text-gray-500 mx-auto">
     <footer className="border-t border-gray-700 mt-10">
   <div className="max-w-[1100px] mx-auto px-5 py-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
     
-    {/* Left - Logo */}
-    <div className="max-w-xs">
+     <div className="max-w-xs">
       <div className="flex items-center gap-2 font-bold text-lg">
         <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-sky-500 to-cyan-400 shadow-lg"></div>
         <span>Medica College</span>
@@ -437,11 +422,9 @@ flex items-center justify-center text-gray-500 mx-auto">
       </p>
     </div>
 
-    {/* Right - Links */}
-    <div className="grid grid-cols-2 md:grid-cols-3 gap-30 w-full md:w-auto">
+     <div className="grid grid-cols-2 md:grid-cols-3 gap-30 w-full md:w-auto">
       
-      {/* MBBS */}
-      <div>
+       <div>
         <h4 className="font-semibold">MBBS</h4>
         <ul className="text-gray-400 mt-2 space-y-1">
           <li>
@@ -462,8 +445,7 @@ flex items-center justify-center text-gray-500 mx-auto">
         </ul>
       </div>
 
-      {/* Campus */}
-      <div>
+       <div>
         <h4 className="font-semibold">Campus</h4>
         <ul className="text-gray-400 mt-2 space-y-1">
           <li>
@@ -484,8 +466,7 @@ flex items-center justify-center text-gray-500 mx-auto">
         </ul>
       </div>
 
-      {/* Legal */}
-      <div>
+       <div>
         <h4 className="font-semibold">Legal</h4>
         <ul className="text-gray-400 mt-2 space-y-1">
           <li>
